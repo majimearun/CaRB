@@ -36,7 +36,7 @@ Prepare your extractions in the following format
 
 `sent, prob, rel, arg1, arg2, ...`
 
-where `prob` is the confidence of the extraction. For simplicity, set it as `1.00` if your model does not assign any probability of confidence to extractions. Sample extraction file: 
+where `prob` is the confidence of the extraction. For simplicity, set it as `1.00` if your model does not assign any probability of confidence to extractions. Sample extraction file: https://github.com/majimearun/CaRB/blob/master/data/test_with_confidence_values.txt 
 
 To evaluate your OpenIE system:
 
