@@ -18,13 +18,15 @@ CaRB is a dataset cum evaluation framework for benchmarking Open Information Ext
 
 `conda create -n carb python=3.10`
 
-* Activate vurtual environment
+* Activate the virtual environment
 
 `conda activate carb`
 
 * Install requirements
 
 `pip install -r requirements.txt`
+
+`python -m nltk.downloader stopwords`
 
 ## Evaluating an Open IE Extractor
 
