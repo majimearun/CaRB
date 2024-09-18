@@ -34,7 +34,7 @@ Prepare your extractions in the following format
 
 `sent, prob, rel, arg1, arg2, ...`
 
-where `prob` is the confidence of the extraction. For simplicity, set it as `1.00` if your model does not assign any probability of confidence to extractions.
+where `prob` is the confidence of the extraction. For simplicity, set it as `1.00` if your model does not assign any probability of confidence to extractions. Sample extraction file: 
 
 To evaluate your OpenIE system:
 
@@ -42,13 +42,21 @@ To evaluate your OpenIE system:
 
 ``` 
 Usage:
-   python carb.py --gold=data/gold/test.tsv --out=OUTPUT_FILE --tabbed=system_output/test/*your_output*.txt
+   python carb.py --gold=data/gold/test.tsv --out=OUTPUT_FILE --tabbed=system_output/test/your_output.txt
 
 Options:
   --gold=GOLD_OIE              The gold reference Open IE file (by default, it should be under ./oie_corpus/all.oie).
   --out=OUTPUT_FILE            The output file, into which the precision recall curve will be written.
   --tabbed=TABBED_OIE	       Read tabbed format from file TABBED_OIE
 ```
+
+2. Sample output
+
+```
+INFO:root:Writing PR curve of TabReader to output.txt
+AUC: 0.966       Optimal (precision, recall, F1): [0.971 0.98  0.976]
+```
+
 
 
 
