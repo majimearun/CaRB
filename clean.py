@@ -3,7 +3,6 @@ import spacy
 def remerge_sent(sent):
     # merges tokens which are not separated by white-space
     # does this recursively until no further changes
-    # this ensures spacy tokenization does not
     changed = True
     while changed:
         changed = False
