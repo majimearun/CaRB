@@ -29,13 +29,9 @@ If you use this software, please cite:
 }
 ```
 
-### Contact
-Leave us a note at 
-```samarthaggarwal2510 (at) gmail (dot) com```
-
 ## Requirements
 
-* Python 3
+* Python 3.10
 * See required python packages [here](requirements.txt).
 
 
